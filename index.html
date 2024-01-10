@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP._iePko1T0X7nwlRbq2ekwAHaHa?rs=1&pid=ImgDetMain">
+    <title>BookSky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1>Book Sky</h1>
+    </div>
+
+    <div class="container">
+        <div class="box-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5> Robert Kiyosaki and Sharon Lechter</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellendus eos porro veritatis laboriosam!
+                Autem, dolores adipisci saepe deserunt expedita iste. Quia, maxime esse. Voluptas cumque ad veniam
+                laudantium nihil?</p>
+                <button onclick="deleteBook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input placeholder="Enter the book title" class="book-title">
+            <input placeholder="Enter the Author name" class="book-author">
+            <textarea placeholder="Give short description about the book" class="book-des"></textarea>
+            <button class="add-book">Add Book</button>
+            <button class="cancel-book" onclick="cancelBook(event)">Cancel Popup</button>
+        </form>
+    </div>
+    <button class="add-button" onclick="addBook()">+</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
