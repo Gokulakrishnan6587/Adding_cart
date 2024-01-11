@@ -27,6 +27,9 @@ addb.addEventListener("click",function(event){
     <p>${bookdes.value}</p>
     <button onclick="deleteBook(event)">Delete</button>`
     container.append(div)
+booktitle.value=""
+bookauthor.value=""
+bookdes.value=""
     popup_overlay.style.display = "none"
     popup_box.style.display = "none"
 })
