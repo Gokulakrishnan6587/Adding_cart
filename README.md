@@ -58,7 +58,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 
 Gokula krishnan - [@twitter_handle](https://x.com/Gokulak08612388) - gokulakrishnan6587@gmail.com
 
-Project Link: [https://github.com/Gokulakrishnan6587/Adding_cart](https://github.com/Gokulakrishnan6587/Adding_cart)
+Project Link: (https://gokulakrishnan6587.github.io/Adding_cart/)
 
 ## :gem: Acknowledgements
 
